@@ -1,4 +1,4 @@
-import React ,{useState , useRef} from 'react';
+import React ,{useState } from 'react';
 import addImg from './images/plus.png';
 import './Home.css';
 import listNote from './list';
@@ -52,7 +52,7 @@ const Home = () => {
     return (
         <div className = "container">
             <div className="header">
-                <img onClick ={handleShow} src ={addImg}/> 
+                <img onClick ={handleShow} src ={addImg} alt=""/> 
                 <h1>TAKE A NOTE</h1>
             </div>
             <input id = "search_bar" type ="search" placeholder ="Search a note........" />
