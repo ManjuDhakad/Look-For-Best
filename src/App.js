@@ -1,7 +1,7 @@
 import React from "react";
 // import ReactDOM from "react-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './Components/noteapp/Home';
+import Home from './Components/GitFindFit/Home';
 
 class App extends React.Component {
     render() {
